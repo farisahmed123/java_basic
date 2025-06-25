@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="java.util.logging.ConsoleHandler.level" value="INFO"/>
+    <property name="java.util.logging.ConsoleHandler.formatter" value="java.util.logging.SimpleFormatter"/>
+    <handler name="console" class="java.util.logging.ConsoleHandler">
+        <level value="INFO"/>
+        <formatter class="java.util.logging.SimpleFormatter"/>
+    </handler>
+    <logger name="com.example" level="FINE" useParentHandlers="true"/>
+    <root level="INFO">
+        <handler-ref name="console"/>
+    </root>
+</configuration> 

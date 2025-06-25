@@ -1,0 +1,5 @@
+Income,23,123,2025-06-23
+Income,Tution,190,2025-06-23
+Expense,Grocery,190,2025-06-23
+Expense,Rent,1890,2025-06-23
+Income,heaa,1212,2025-06-23
